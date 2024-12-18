@@ -117,6 +117,8 @@ For RGBA:
 
 ## Color Palate : https://colorhunt.co/
 
+## Color Palate : https://maketintsandshades.com/
+
 ### Code Example to Calculate:
 ```javascript
 // Function to calculate RGB combinations
