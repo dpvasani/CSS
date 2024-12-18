@@ -93,6 +93,30 @@ a {
 
 ---
 
+The `!important` rule in CSS is used to make a property the highest priority, overriding other styles, including inline styles.
+
+```css
+property: value !important;
+```
+
+### Example:
+```css
+div {
+  color: blue !important; /* This will override any other styles applied to the `color` property */
+}
+
+#myDiv {
+  color: red; /* This will be ignored due to the `!important` rule above */
+}
+```
+
+### Key Points:
+1. **Overrides Specificity**: Even if another rule has higher specificity, the `!important` declaration will still take precedence.
+2. **Inline Styles**: `!important` can override inline styles defined directly in the HTML.
+3. **Debugging Complexity**: Use sparingly, as it can make debugging more difficult and reduce maintainability.
+
+
+
 ### **Summary of Priority**
 1. Inline CSS (`style="..."`) — Highest priority.
 2. `!important` — Overrides everything else, including inline styles.
