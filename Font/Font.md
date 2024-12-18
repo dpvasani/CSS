@@ -86,4 +86,5 @@ font-family: "Preferred Font", Fallback1, Fallback2, sans-serif;
 - **WOFF2 Font (.woff2):** format('woff2')
 - **Embedded OpenType Font (.eot):** format('embedded-opentype')
 - **SVG Font (.svg):** format('svg')
+- Fonts Download : https://www.dafont.com/
 ```
